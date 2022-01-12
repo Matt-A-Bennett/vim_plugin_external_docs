@@ -1,18 +1,21 @@
 # Todo list
 ## Major
 - [x] Integrate with repeat.vim
-- [ ] Allow multi-line functions
-- [ ] Have `gs` commands operate on any motion (constrained to a single line)
+- [ ] Have `gs` commands operate on any motion (constrained to a single line?)
 
 ## Minor
 - [x] Rewrite so we don't rely on tons of `exe norm!` commands
 - [x] Fix big bug 1
 - [x] Let users provide a list of legal function name characters
 - [x] Allow users to define their own maps
+- [ ] Allow multi-line functions
+- [ ] Add `daf` and `dif` text objects
+- [ ] Add `daa` and `dia` text object for the trailing arguments(?)
+- [ ] Add `dan` and `din` text object for the function name(?)
+- [ ] Allow yanking into a named register
 
 ## Patches
 - [x] Fix small bug 1
-- [ ] These functions are unneeded (s:move_to_end_of_func)
 
 ### Bugs
 #### Big Bugs
