@@ -1,48 +1,42 @@
-" np.hello(there(my,
-"             yes), arg1
-"                      arg2
-"                 arg3, boy) more...
 
-" let str_array = getline(start_line, end_line)
-" call append('.', ['line one', 'line two', 'etc.'])
+Ideas
+===============================================================================
 
-" " grab from start of function to open parenthesis (same as original)
-" [ '*********there(my,'                ,
-"   '            yes), arg1'            ,
-"   '                     arg2'         ,
-"   '                arg3, boy) more...'  ]
-"
-" " grab from start of trail to close OR to EOL if no close is there
-" [ 'there(my,'                         ,
-"   '            yes)******'            ,
-"   '                     arg2'         ,
-"   '                arg3, boy) more...'  ]
-"
-" " grab from start of line to close OR to EOL if no close is there
-" [ 'there(my,'                         ,
-"   '            yes)'                  ,
-"   '*************************'         ,
-"   '                arg3, boy) more...'  ]
-"
-" " grab from start of line to close
-" [ 'np.hello(there(my,'                ,
-"   '            yes)'                  ,
-"   ''                                  ,
-"   '************************** more...'  ]
+" I could expose some variables (like marker positions) as script variables so
+" that a relevant functions could access them without having earlier functions
+" recalculate them
 
-" grab from start of function to open parenthesis (same as original)
-" grab from start of trail to close OR to EOL if no close is there
-" grab from start of line to close OR to EOL if no close is there
-" grab from start of line to close
+" I could include the line number along with the extract parts in the Dict
 
-" np.hello(there(my,
-"             no), arg1
-"                      arg2
-"                 arg3, boy) more...
+-------------------------------------------------------------------------------
 
-" np.hello(there(my, no),
-"                         arg1,
-"                         arg2,
+    np.hello(there(my, no), arg1 arg2 arg3, boy) more...
 
-"                         arg3, boy) more...
+    np.hello(there(my,
+    no), arg1
+    arg2
+    arg3, boy) more...
+
+    np.hello(there(my, no),
+                         arg1,
+                     arg2,
+
+                     arg3, boy) more...
+
+np.hello(there(my,
+         yes), arg1
+                  arg2
+
+             arg3, boy) more...
+
+    " trouble, *BUT* this is not legal code anyway...)
+    np.hello(there(my,
+    no)
+    , arg1
+    arg2
+    arg3, boy) more...
+
+" these will be useful 
+let str_array = getline(start_line, end_line)
+call append('.', ['line one', 'line two', 'etc.']) " source me in place
 
