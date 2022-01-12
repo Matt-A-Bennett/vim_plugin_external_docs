@@ -8,6 +8,10 @@ Ideas
 
 " I could include the line number along with the extract parts in the Dict
 
+" daf should delete from the start of the func name, to the closing bracket
+" dif should delete everything between the the opening and closing brackets
+" the above shound be bonafide text objects
+
 -------------------------------------------------------------------------------
 
     np.hello(there(my, no), arg1 arg2 arg3, boy) more...
