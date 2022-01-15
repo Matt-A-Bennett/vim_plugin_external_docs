@@ -12,8 +12,6 @@ Ideas
 
 -------------------------------------------------------------------------------
 
-" Add a Delete_from_string() that can do multiple deletions
-
     np.hello(there(my, no), arg1 arg2 arg3, boy) more...
 
 
