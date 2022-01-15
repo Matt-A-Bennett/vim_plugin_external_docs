@@ -1,4 +1,7 @@
 # Todo list
+
+[Back to main surround-funk.vim repository](https://github.com/Matt-A-Bennett/surround-funk.vim)
+
 ## Major
 - [x] Integrate with repeat.vim
 - [ ] Have `gs` commands operate on any motion (constrained to a single line?)
