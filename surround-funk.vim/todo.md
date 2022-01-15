@@ -11,7 +11,7 @@
 - [x] Fix big bug 1
 - [x] Let users provide a list of legal function name characters
 - [x] Allow users to define their own maps
-- [ ] Allow multi-line functions
+- [x] Allow multi-line functions
 - [ ] Add `daf` and `dif` text objects
 - [ ] Add `daa` and `dia` text object for the trailing arguments(?)
 - [ ] Add `dan` and `din` text object for the function name(?)
