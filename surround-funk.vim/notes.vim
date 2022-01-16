@@ -8,9 +8,11 @@ Ideas
 
 " daf should delete from the start of the func name, to the closing bracket
 " dif should delete everything between the the opening and closing brackets
-" the above shound be bonafide text objects
+" the above should be bonafide text objects
 
 -------------------------------------------------------------------------------
+
+" Add a Delete_from_string() that can do multiple deletions
 
     np.hello(there(my, no), arg1 arg2 arg3, boy) more...
 
@@ -26,6 +28,7 @@ Ideas
     np.hello(there(my, no), arg1
     arg2
     arg3, boy) more...
+
 
 
 
