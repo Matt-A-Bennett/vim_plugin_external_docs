@@ -15,6 +15,8 @@
 - [x] Add `daf` and `dif` text objects
 - [x] Add `dan` and `din` text object for the function name(?)
 - [x] Allow yanking into a named register
+- [ ] Some languages (e.g. Miranda family) don't use parentheses for function
+      calls... I wonder if I could broaden the plugin to work on those too?
 
 ## Patches
 - [x] Fix small bug 1
