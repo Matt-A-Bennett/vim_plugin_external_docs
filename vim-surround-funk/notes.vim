@@ -2,14 +2,6 @@
 Ideas
 ===============================================================================
 
-" I could expose some variables (like marker positions) as script variables so
-" that a relevant functions could access them without having earlier functions
-" recalculate them
-
-" daf should delete from the start of the func name, to the closing bracket
-" dif should delete everything between the the opening and closing brackets
-" the above should be bonafide text objects
-
 -------------------------------------------------------------------------------
 
 " Add a Delete_from_string() that can do multiple deletions
