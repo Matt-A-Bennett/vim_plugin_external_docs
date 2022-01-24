@@ -22,7 +22,7 @@
 
 ## Patches
 - [x] Fix small bug 1
-- [ ] Gracefully handle error when trying to use `gs` without a function in the
+- [x] Gracefully handle error when trying to use `gs` without a function in the
       unnamed register (maybe I should just start off by defining `s:parts` as
       empty when loading the plugin...
 
