@@ -8,6 +8,10 @@ let g:tests = [ ['$hdaw'],
                \['7|', 'csFhello'  ],
                \['7|', 'ysfjf(lgsaf'  ],
                \['7|', 'ysfjf(lgsaF'  ],
+               \['36|', 'cinmean'  ],
+               \['36|', 'ciNyes'  ],
+               \['36|', 'cifsmall()'  ],
+               \['10|j', 'dsF'  ],
              \]
 
 let g:after = [ '' ]
