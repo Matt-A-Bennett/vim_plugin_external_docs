@@ -17,7 +17,7 @@
 - [x] Allow yanking into a named register
 - [ ] Some languages (e.g. Miranda family) don't use parentheses for function
       calls... I wonder if I could broaden the plugin to work on those too?
-- [x] Add a new operator `gso` to grip/surround a text object with a function
+- [x] Add a new operator `gS` to grip/surround a text object with a function
       (like tpope's `ysiwf`)
 
 ## Patches
