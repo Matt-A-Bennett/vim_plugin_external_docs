@@ -3,10 +3,10 @@
 [Back to main vim-surround-funk repository](https://github.com/Matt-A-Bennett/vim-surround-funk)
 
 ## Major
-- [x] Integrate with repeat.vim
 - [x] Have `gs` commands operate on any motion (constrained to a single line?)
 
 ## Minor
+- [x] Integrate with repeat.vim
 - [x] Let users provide a list of legal function name characters
 - [x] Allow users to define their own maps
 - [x] Allow multi-line functions
