@@ -1,0 +1,2 @@
+np.out{os.in}
+out{np.out{os.in}}

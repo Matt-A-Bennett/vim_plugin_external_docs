@@ -12,6 +12,32 @@ let g:tests = [ ['$hdaw'],
                \['36|', 'ciNyes'  ],
                \['36|', 'cifsmall()'  ],
                \['10|j', 'dsF'  ],
-             \]
+               \
+               \['g{', '$hdaw'],
+               \['g{', 'dsF'  ],
+               \['g{', '7|', 'dsf'  ],
+               \['g{', '7|', 'dsF'  ],
+               \['g{', '7|', 'csfhello'  ],
+               \['g{', '7|', 'csFhello'  ],
+               \['g{', '7|', 'ysfjf{lgsaf'  ],
+               \['g{', '7|', 'ysfjf{lgsaF'  ],
+               \['g{', '36|', 'cinmean'  ],
+               \['g{', '36|', 'ciNyes'  ],
+               \['g{', '36|', 'cifsmall{}'  ],
+               \['g{', '10|j', 'dsF'  ],
+               \
+               \['g[', '$hdaw'],
+               \['g[', 'dsF'  ],
+               \['g[', '7|', 'dsf'  ],
+               \['g[', '7|', 'dsF'  ],
+               \['g[', '7|', 'csfhello'  ],
+               \['g[', '7|', 'csFhello'  ],
+               \['g[', '7|', 'ysfjf[lgsaf'  ],
+               \['g[', '7|', 'ysfjf[lgsaF'  ],
+               \['g[', '36|', 'cinmean'  ],
+               \['g[', '36|', 'ciNyes'  ],
+               \['g[', '36|', 'cifsmall[]'  ],
+               \['g[', '10|j', 'dsF'  ],
+               \]
 
 let g:after = [ '' ]
