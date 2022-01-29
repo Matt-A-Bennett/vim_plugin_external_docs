@@ -8,7 +8,7 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 
 " to do the tests
-Plugin 'Matt-A-Bennett/unit-test.vim'
+Plugin 'Matt-A-Bennett/vim-unit-test'
 
 " Plugin I'm testing
 Plugin 'Matt-A-Bennett/vim-surround-funk'
@@ -19,4 +19,3 @@ Plugin 'tpope/vim-repeat'
 filetype plugin indent on
 
 syntax on
-
