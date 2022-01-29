@@ -28,6 +28,8 @@
 #### Big Bugs
 
 #### Small Bugs
-1. when doing an operation on a half finished function (one without a matching
+1. When doing an operation on a half finished function (one without a matching
    paren occurring before the end of the file), an error is thrown... this
    should be handled gracefully.
+2. Unit test number 44 is failing (using `g{`, with multi-line mixed
+   parentheses)
