@@ -1,5 +1,4 @@
 set nocompatible
-filetype plugin on
 
 filetype off
 
@@ -15,7 +14,3 @@ Plugin 'Matt-A-Bennett/vim-surround-funk'
 
 " dependencies
 Plugin 'tpope/vim-repeat'
-
-filetype plugin indent on
-
-syntax on
