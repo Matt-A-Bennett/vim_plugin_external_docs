@@ -46,6 +46,7 @@ let g:tests = [ [              "$hdaw"                  ],
                \ 
                \["g[", "12|",  "ysf$", "g(", "gsiF"     ],
                \["g{",         "dsF"                    ],
+               \["g(",         "dsF"                    ],
                \]
 
 let g:before = [ "" ]                                   
