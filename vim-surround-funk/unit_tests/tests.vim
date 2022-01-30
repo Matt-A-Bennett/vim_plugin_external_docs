@@ -10,7 +10,6 @@ let g:tests = [ [              "$hdaw"                  ],
                \[      "36|",  "ciNyes"                 ], 
                \[      "36|",  "cifsmall()"             ], 
                \[      "10|j", "dsF"                    ],
-               \                                        
                \["g{",         "$hdaw"                  ],        
                \["g{",         "dsF"                    ],        
                \["g{", "7|",   "dsf"                    ],  
@@ -23,7 +22,6 @@ let g:tests = [ [              "$hdaw"                  ],
                \["g{", "36|",  "ciNyes"                 ], 
                \["g{", "36|",  "cifsmall{}"             ], 
                \["g{", "10|j", "dsF"                    ],
-               \                                        
                \["g[",         "$hdaw"                  ],        
                \["g[",         "dsF"                    ],        
                \["g[", "7|",   "dsf"                    ],  
@@ -36,16 +34,15 @@ let g:tests = [ [              "$hdaw"                  ],
                \["g[", "36|",  "ciNyes"                 ], 
                \["g[", "36|",  "cifsmall[]"             ], 
                \["g[", "10|j", "dsF"                    ],
-               \                                        
                \[              "gSiFhello\<CR>"         ],
                \[              "gSiwhello\<CR>, arg1"   ],
                \[      "20|",  "gSiwhello\<CR>, arg1"   ],
                \[      "2j",   "gSiFmulti\<CR>, ARG!"   ],
                \[              "gSiFnp.hello\<CR>"      ],
                \[      "12|",  "gS$dumb\<CR>, why...?"  ],
-               \ 
                \["g[", "12|",  "ysf$", "g(", "gsiF"     ],
                \["g{",         "dsF"                    ],
+               \["g(",         "dsF"                    ],
                \["g(",         "dsF"                    ],
                \]
 
