@@ -26,9 +26,9 @@
 ### Bugs
 
 #### Big Bugs
+1. Unit tests 44/45/46 are failing (multi-line with no inner function)
 
 #### Small Bugs
 1. When doing an operation on a half finished function (one without a matching
    paren occurring before the end of the file), an error is thrown... this
    should be handled gracefully.
-2. Unit tests 44/45 are failing (multi-line and mixed parentheses)
