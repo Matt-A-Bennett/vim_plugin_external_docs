@@ -3,14 +3,14 @@
 [Back to main vim-surround-funk repository](https://github.com/Matt-A-Bennett/vim-surround-funk)
 
 ## Major
-- [x] Have `gs` commands operate on any motion (constrained to a single line?)
+- [x] Have `gs` commands operate on any motion
 
 ## Minor
 - [x] Integrate with repeat.vim
 - [x] Let users provide a list of legal function name characters
 - [x] Allow users to define their own maps
 - [x] Allow multi-line functions
-- [x] Add `af` and `if` text objects
+- [x] Add `af` and `if` text objects for the entire function call
 - [x] Add `an` and `in` text object for the function name
 - [x] Allow yanking into a named register
 - [ ] Some languages (e.g. Miranda family) don't use parentheses for function
@@ -18,7 +18,7 @@
 - [x] Add a new operator `gS` to grip/surround a text object with a function
       (like tpope's `ysiwf`)
 - [x] Allow user to configure whether to use `(`, `[`, or `{` as the default
-- [x] Add operator to use `(`, `[`, or `{` on the fly: `g(s`, `g[s`, or `g{s`
+- [x] Add operator to use `(`, `[`, or `{` on the fly: `g(`, `g[`, or `g{`
 - [x] Allow for different settings per buffer/filetype
 
 ## Patches
