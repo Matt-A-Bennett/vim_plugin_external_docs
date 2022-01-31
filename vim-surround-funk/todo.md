@@ -17,9 +17,9 @@
       calls... I wonder if I could broaden the plugin to work on those too?
 - [x] Add a new operator `gS` to grip/surround a text object with a function
       (like tpope's `ysiwf`)
-- [ ] Allow user to configure whether to use `(`, `[`, or `{` as the default
-- [ ] Add operator to use `(`, `[`, or `{` on the fly: `g(s`, `g[s`, or `g{s`
-- [ ] Allow for different settings per buffer/filetype
+- [x] Allow user to configure whether to use `(`, `[`, or `{` as the default
+- [x] Add operator to use `(`, `[`, or `{` on the fly: `g(s`, `g[s`, or `g{s`
+- [x] Allow for different settings per buffer/filetype
 
 ## Patches
 
