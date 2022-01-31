@@ -1,0 +1,1 @@
+np.out(another[1:3], [,:])
