@@ -22,6 +22,7 @@
 - [x] Allow for different settings per buffer/filetype
 
 ## Patches
+- [ ] Use `try catch` statements to avoid spamming the user with a page of errors
 
 ### Bugs
 
