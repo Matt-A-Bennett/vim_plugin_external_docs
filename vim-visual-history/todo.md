@@ -8,7 +8,7 @@
 ## Minor
 
 ## Patches
-- [ ] Add vim documentation pages
+- [x] Add vim documentation pages
 
 ### Bugs
 
