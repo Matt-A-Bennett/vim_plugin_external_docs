@@ -6,6 +6,7 @@
 - [ ] Make this plugin solid, add unit tests (for official release)
 
 ## Minor
+- [x] Allow plugin to take a count
 
 ## Patches
 - [x] Add vim documentation pages

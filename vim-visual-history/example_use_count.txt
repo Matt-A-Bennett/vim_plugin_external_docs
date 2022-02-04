@@ -1,0 +1,11 @@
+1.  the [v and ]v visual-history plugin
+
+2.  commands also takes a count!
+
+3.  so you can travese the history at speed
+
+4.  (note, the [V and ]V don't take a count
+
+5.  as they go to the first and last 
+
+6.  entry, respectively)
