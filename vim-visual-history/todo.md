@@ -8,8 +8,6 @@
 ## Minor
 - [x] Allow plugin to take a count
 - [ ] Resynch history after edit is made to the text in the buffer
-- [x] Don't duplicate the last entry in the history (e.g. when moving the
-      cursor left/right after in line-wise visual mode
 - [ ] If vim is new, use the `ModeChanged` autocmd to capture the visual
       selection on entering visual mode (instead of hoping for a cursor
       movement)
@@ -17,6 +15,7 @@
 ## Patches
 - [x] Add vim documentation pages
 - [x] Fix small bug 1
+- [x] Fix small bug 2
 
 ### Bugs
 
@@ -26,3 +25,5 @@
 1. When in visual mode, the first time pressing `[v` to go to the previous
    selection doesn't move - it takes two presses. After which all commands seem
    to work normally
+2. Duplication of the last entry in the history (e.g. when moving the cursor
+   left/right after in line-wise visual mode)
