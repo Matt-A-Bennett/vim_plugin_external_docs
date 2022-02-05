@@ -7,7 +7,7 @@
 
 ## Minor
 - [x] Allow plugin to take a count
-- [ ] Resynch history after edit is made to the text in the buffer
+- [x] Synchronise history after edit is made to the text in the buffer
 - [ ] If vim is new, use the `ModeChanged` autocmd to fix 'big bug 1' by
       capturing the visual selection on entering visual mode (instead of hoping
       for a cursor movement)
