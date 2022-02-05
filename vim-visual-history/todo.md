@@ -8,9 +8,9 @@
 ## Minor
 - [x] Allow plugin to take a count
 - [ ] Resynch history after edit is made to the text in the buffer
-- [ ] If vim is new, use the `ModeChanged` autocmd to capture the visual
-      selection on entering visual mode (instead of hoping for a cursor
-      movement)
+- [ ] If vim is new, use the `ModeChanged` autocmd to fix 'big bug 1' by
+      capturing the visual selection on entering visual mode (instead of hoping
+      for a cursor movement)
 
 ## Patches
 - [x] Add vim documentation pages
@@ -20,6 +20,8 @@
 ### Bugs
 
 #### Big Bugs
+1. Visual selections made without a cursor movement not picked up (e.g. `V` and
+   sometimes `vip`)
 
 #### Small Bugs
 1. When in visual mode, the first time pressing `[v` to go to the previous
