@@ -8,7 +8,7 @@
 ## Minor
 - [x] Allow plugin to take a count
 - [ ] Resynch history after edit is made to the text in the buffer
-- [ ] Don't duplicate the last entry in the history (e.g. when moving the
+- [x] Don't duplicate the last entry in the history (e.g. when moving the
       cursor left/right after in line-wise visual mode
 - [ ] If vim is new, use the `ModeChanged` autocmd to capture the visual
       selection on entering visual mode (instead of hoping for a cursor
