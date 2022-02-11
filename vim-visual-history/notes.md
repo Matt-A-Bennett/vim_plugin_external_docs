@@ -1,23 +1,13 @@
 # Ideas for improvements/features
 
- - To figure out why the non-motion approaches I've tried so far don't work,
-   make an entirely separate record of the things I capture when leaving
-   visual. Remap `[v` and `]v` to traverse *that* list and see if its working.
-   Then maybe I can simply concatenate the lists (or just check the
-   separately).
+- I could have a b:counter that is reset at say 3 everytime I move in visual
+  mode, after I exit visual mode, and gets decremented by one each time the
+  update_record() is called in normal mode. When it reaches zero, I stop
+  calling update_record() (until I get back into visual mode, and the reset
+  happens)
 
- - Maybe I need to set b:reselecting to 4, and subtract one each time to
-   protect the thing..
-
-```
-   1
-   0
-   0
-   0
-   0
-   1
-   0
-   0
-   0
-   0
-```
+ - `[V` and `]V` should reselect `gv` style things (i.e. completed selections)
+  and `[v` and `]v` should reselect in a more granular way (allowing the
+  `a(a(a([v[v...` to work. The `first` and `last` can be done with a `99[V` or
+  a `99]V`
+ - The granular pointer should always get 'carried along' by the big pointer!
