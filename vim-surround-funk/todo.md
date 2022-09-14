@@ -32,3 +32,8 @@
 1. When doing an operation on a half finished function (one without a matching
    paren occurring before the end of the file), an error is thrown... this
    should be handled gracefully.
+
+2. Failing unit test 51: Using `dsf` on the `str` below strips two closing
+   parentheses...:
+
+`str(attributes(structure(1:5, comment = "my attribute")))`

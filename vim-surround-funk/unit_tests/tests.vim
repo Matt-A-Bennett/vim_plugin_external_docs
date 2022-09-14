@@ -50,6 +50,7 @@ let g:tests = [ [[             "$hdaw"                   ], ''],
                \[["g(",         "dsF"                    ], ''],
           \[[hot, "g[", "10|",  "dsf", "gsaF"            ], ''],
                \[[      "3|",   "dsF"                    ], '.tex'],
+               \[[              "dsf"                    ], '.R'],  
                \]
 
 let g:before = [ "" ]                                   
