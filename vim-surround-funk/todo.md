@@ -33,7 +33,11 @@
    paren occurring before the end of the file), an error is thrown... this
    should be handled gracefully.
 
-2. Failing unit test 51: Using `dsf` on the `str` below strips two closing
-   parentheses...:
+2. Failing unit tests 51-52: Using `dsf` on the `str` or `unlist` below strips
+   two closing parentheses...:
 
-`str(attributes(structure(1:5, comment = "my attribute")))`
+```
+str(attributes(structure(1:5, comment = "my attribute")))
+
+unlist(list(Sys.Date(), Sys.time()))
+```
